@@ -1,15 +1,18 @@
 {
-  "name": "ftcscoutdiscordbot",
-  "version": "1.0.0",
-  "description": "A Discord bot for accessing statistics about FTC teams, via the FTCScout API.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "discord.js": "^14.14.1",
-    "dotenv": "^16.4.2"
-  }
+	"name": "ftcscoutdiscordbot",
+	"version": "1.0.0",
+	"description": "A Discord bot for accessing statistics about FTC teams, via the FTCScout API.",
+	"exports": "./index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"discord.js": "^14.14.1",
+		"dotenv": "^16.4.2",
+		"markdown-table": "^3.0.3",
+		"nodemon": "^3.1.0"
+	},
+	"type": "module"
 }
